@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19EA830021EE3E0F00CC44CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EA82FF21EE3E0F00CC44CE /* AppDelegate.m */; };
+		19EA830321EE3E0F00CC44CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EA830221EE3E0F00CC44CE /* ViewController.m */; };
+		19EA830621EE3E0F00CC44CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19EA830421EE3E0F00CC44CE /* Main.storyboard */; };
+		19EA830821EE3E1100CC44CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19EA830721EE3E1100CC44CE /* Assets.xcassets */; };
+		19EA830B21EE3E1100CC44CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19EA830921EE3E1100CC44CE /* LaunchScreen.storyboard */; };
+		19EA830E21EE3E1100CC44CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EA830D21EE3E1100CC44CE /* main.m */; };
+		19EA831821EE3E1100CC44CE /* FancyTextCreatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EA831721EE3E1100CC44CE /* FancyTextCreatorTests.m */; };
+		19EA832321EE3E1100CC44CE /* FancyTextCreatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EA832221EE3E1100CC44CE /* FancyTextCreatorUITests.m */; };
+		19EA833421EE3E3400CC44CE /* LemonMilk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19EA833021EE3E3300CC44CE /* LemonMilk.otf */; };
+		19EA833521EE3E3400CC44CE /* LemonMilk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19EA833021EE3E3300CC44CE /* LemonMilk.otf */; };
+		19EA833621EE3E3400CC44CE /* LemonMilk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19EA833021EE3E3300CC44CE /* LemonMilk.otf */; };
+		19EA833721EE3E3400CC44CE /* Moon Flower.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19EA833121EE3E3300CC44CE /* Moon Flower.ttf */; };
+		19EA833821EE3E3400CC44CE /* Moon Flower.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19EA833121EE3E3300CC44CE /* Moon Flower.ttf */; };
+		19EA833921EE3E3400CC44CE /* Moon Flower.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19EA833121EE3E3300CC44CE /* Moon Flower.ttf */; };
+		19EA833A21EE3E3400CC44CE /* Blacksword.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19EA833221EE3E3300CC44CE /* Blacksword.otf */; };
+		19EA833B21EE3E3400CC44CE /* Blacksword.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19EA833221EE3E3300CC44CE /* Blacksword.otf */; };
+		19EA833C21EE3E3400CC44CE /* Blacksword.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19EA833221EE3E3300CC44CE /* Blacksword.otf */; };
+		19EA833D21EE3E3400CC44CE /* SugarstyleMillenial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19EA833321EE3E3300CC44CE /* SugarstyleMillenial-Regular.ttf */; };
+		19EA833E21EE3E3400CC44CE /* SugarstyleMillenial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19EA833321EE3E3300CC44CE /* SugarstyleMillenial-Regular.ttf */; };
+		19EA833F21EE3E3400CC44CE /* SugarstyleMillenial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19EA833321EE3E3300CC44CE /* SugarstyleMillenial-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19EA831421EE3E1100CC44CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19EA82F321EE3E0E00CC44CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19EA82FA21EE3E0E00CC44CE;
+			remoteInfo = FancyTextCreator;
+		};
+		19EA831F21EE3E1100CC44CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19EA82F321EE3E0E00CC44CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19EA82FA21EE3E0E00CC44CE;
+			remoteInfo = FancyTextCreator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19EA82FB21EE3E0E00CC44CE /* FancyTextCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyTextCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19EA82FE21EE3E0E00CC44CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19EA82FF21EE3E0F00CC44CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19EA830121EE3E0F00CC44CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19EA830221EE3E0F00CC44CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19EA830521EE3E0F00CC44CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19EA830721EE3E1100CC44CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19EA830A21EE3E1100CC44CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19EA830C21EE3E1100CC44CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19EA830D21EE3E1100CC44CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19EA831321EE3E1100CC44CE /* FancyTextCreatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancyTextCreatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19EA831721EE3E1100CC44CE /* FancyTextCreatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyTextCreatorTests.m; sourceTree = "<group>"; };
+		19EA831921EE3E1100CC44CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19EA831E21EE3E1100CC44CE /* FancyTextCreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancyTextCreatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19EA832221EE3E1100CC44CE /* FancyTextCreatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyTextCreatorUITests.m; sourceTree = "<group>"; };
+		19EA832421EE3E1100CC44CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19EA833021EE3E3300CC44CE /* LemonMilk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LemonMilk.otf; sourceTree = "<group>"; };
+		19EA833121EE3E3300CC44CE /* Moon Flower.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Moon Flower.ttf"; sourceTree = "<group>"; };
+		19EA833221EE3E3300CC44CE /* Blacksword.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blacksword.otf; sourceTree = "<group>"; };
+		19EA833321EE3E3300CC44CE /* SugarstyleMillenial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SugarstyleMillenial-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19EA82F821EE3E0E00CC44CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EA831021EE3E1100CC44CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EA831B21EE3E1100CC44CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19EA82F221EE3E0E00CC44CE = {
+			isa = PBXGroup;
+			children = (
+				19EA82FD21EE3E0E00CC44CE /* FancyTextCreator */,
+				19EA831621EE3E1100CC44CE /* FancyTextCreatorTests */,
+				19EA832121EE3E1100CC44CE /* FancyTextCreatorUITests */,
+				19EA82FC21EE3E0E00CC44CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19EA82FC21EE3E0E00CC44CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19EA82FB21EE3E0E00CC44CE /* FancyTextCreator.app */,
+				19EA831321EE3E1100CC44CE /* FancyTextCreatorTests.xctest */,
+				19EA831E21EE3E1100CC44CE /* FancyTextCreatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19EA82FD21EE3E0E00CC44CE /* FancyTextCreator */ = {
+			isa = PBXGroup;
+			children = (
+				19EA82FE21EE3E0E00CC44CE /* AppDelegate.h */,
+				19EA82FF21EE3E0F00CC44CE /* AppDelegate.m */,
+				19EA830121EE3E0F00CC44CE /* ViewController.h */,
+				19EA830221EE3E0F00CC44CE /* ViewController.m */,
+				19EA830421EE3E0F00CC44CE /* Main.storyboard */,
+				19EA830721EE3E1100CC44CE /* Assets.xcassets */,
+				19EA830921EE3E1100CC44CE /* LaunchScreen.storyboard */,
+				19EA830C21EE3E1100CC44CE /* Info.plist */,
+				19EA830D21EE3E1100CC44CE /* main.m */,
+				19EA833221EE3E3300CC44CE /* Blacksword.otf */,
+				19EA833021EE3E3300CC44CE /* LemonMilk.otf */,
+				19EA833121EE3E3300CC44CE /* Moon Flower.ttf */,
+				19EA833321EE3E3300CC44CE /* SugarstyleMillenial-Regular.ttf */,
+			);
+			path = FancyTextCreator;
+			sourceTree = "<group>";
+		};
+		19EA831621EE3E1100CC44CE /* FancyTextCreatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				19EA831721EE3E1100CC44CE /* FancyTextCreatorTests.m */,
+				19EA831921EE3E1100CC44CE /* Info.plist */,
+			);
+			path = FancyTextCreatorTests;
+			sourceTree = "<group>";
+		};
+		19EA832121EE3E1100CC44CE /* FancyTextCreatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19EA832221EE3E1100CC44CE /* FancyTextCreatorUITests.m */,
+				19EA832421EE3E1100CC44CE /* Info.plist */,
+			);
+			path = FancyTextCreatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19EA82FA21EE3E0E00CC44CE /* FancyTextCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19EA832721EE3E1100CC44CE /* Build configuration list for PBXNativeTarget "FancyTextCreator" */;
+			buildPhases = (
+				19EA82F721EE3E0E00CC44CE /* Sources */,
+				19EA82F821EE3E0E00CC44CE /* Frameworks */,
+				19EA82F921EE3E0E00CC44CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FancyTextCreator;
+			productName = FancyTextCreator;
+			productReference = 19EA82FB21EE3E0E00CC44CE /* FancyTextCreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19EA831221EE3E1100CC44CE /* FancyTextCreatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19EA832A21EE3E1100CC44CE /* Build configuration list for PBXNativeTarget "FancyTextCreatorTests" */;
+			buildPhases = (
+				19EA830F21EE3E1100CC44CE /* Sources */,
+				19EA831021EE3E1100CC44CE /* Frameworks */,
+				19EA831121EE3E1100CC44CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19EA831521EE3E1100CC44CE /* PBXTargetDependency */,
+			);
+			name = FancyTextCreatorTests;
+			productName = FancyTextCreatorTests;
+			productReference = 19EA831321EE3E1100CC44CE /* FancyTextCreatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19EA831D21EE3E1100CC44CE /* FancyTextCreatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19EA832D21EE3E1100CC44CE /* Build configuration list for PBXNativeTarget "FancyTextCreatorUITests" */;
+			buildPhases = (
+				19EA831A21EE3E1100CC44CE /* Sources */,
+				19EA831B21EE3E1100CC44CE /* Frameworks */,
+				19EA831C21EE3E1100CC44CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19EA832021EE3E1100CC44CE /* PBXTargetDependency */,
+			);
+			name = FancyTextCreatorUITests;
+			productName = FancyTextCreatorUITests;
+			productReference = 19EA831E21EE3E1100CC44CE /* FancyTextCreatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19EA82F321EE3E0E00CC44CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = JunNakajima;
+				TargetAttributes = {
+					19EA82FA21EE3E0E00CC44CE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					19EA831221EE3E1100CC44CE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 19EA82FA21EE3E0E00CC44CE;
+					};
+					19EA831D21EE3E1100CC44CE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 19EA82FA21EE3E0E00CC44CE;
+					};
+				};
+			};
+			buildConfigurationList = 19EA82F621EE3E0E00CC44CE /* Build configuration list for PBXProject "FancyTextCreator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19EA82F221EE3E0E00CC44CE;
+			productRefGroup = 19EA82FC21EE3E0E00CC44CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19EA82FA21EE3E0E00CC44CE /* FancyTextCreator */,
+				19EA831221EE3E1100CC44CE /* FancyTextCreatorTests */,
+				19EA831D21EE3E1100CC44CE /* FancyTextCreatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19EA82F921EE3E0E00CC44CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EA833721EE3E3400CC44CE /* Moon Flower.ttf in Resources */,
+				19EA833421EE3E3400CC44CE /* LemonMilk.otf in Resources */,
+				19EA830B21EE3E1100CC44CE /* LaunchScreen.storyboard in Resources */,
+				19EA830821EE3E1100CC44CE /* Assets.xcassets in Resources */,
+				19EA830621EE3E0F00CC44CE /* Main.storyboard in Resources */,
+				19EA833A21EE3E3400CC44CE /* Blacksword.otf in Resources */,
+				19EA833D21EE3E3400CC44CE /* SugarstyleMillenial-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EA831121EE3E1100CC44CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EA833E21EE3E3400CC44CE /* SugarstyleMillenial-Regular.ttf in Resources */,
+				19EA833521EE3E3400CC44CE /* LemonMilk.otf in Resources */,
+				19EA833821EE3E3400CC44CE /* Moon Flower.ttf in Resources */,
+				19EA833B21EE3E3400CC44CE /* Blacksword.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EA831C21EE3E1100CC44CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EA833F21EE3E3400CC44CE /* SugarstyleMillenial-Regular.ttf in Resources */,
+				19EA833621EE3E3400CC44CE /* LemonMilk.otf in Resources */,
+				19EA833921EE3E3400CC44CE /* Moon Flower.ttf in Resources */,
+				19EA833C21EE3E3400CC44CE /* Blacksword.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19EA82F721EE3E0E00CC44CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EA830321EE3E0F00CC44CE /* ViewController.m in Sources */,
+				19EA830E21EE3E1100CC44CE /* main.m in Sources */,
+				19EA830021EE3E0F00CC44CE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EA830F21EE3E1100CC44CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EA831821EE3E1100CC44CE /* FancyTextCreatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EA831A21EE3E1100CC44CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EA832321EE3E1100CC44CE /* FancyTextCreatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19EA831521EE3E1100CC44CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19EA82FA21EE3E0E00CC44CE /* FancyTextCreator */;
+			targetProxy = 19EA831421EE3E1100CC44CE /* PBXContainerItemProxy */;
+		};
+		19EA832021EE3E1100CC44CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19EA82FA21EE3E0E00CC44CE /* FancyTextCreator */;
+			targetProxy = 19EA831F21EE3E1100CC44CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19EA830421EE3E0F00CC44CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19EA830521EE3E0F00CC44CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19EA830921EE3E1100CC44CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19EA830A21EE3E1100CC44CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19EA832521EE3E1100CC44CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19EA832621EE3E1100CC44CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19EA832821EE3E1100CC44CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FancyTextCreator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junnakajima.FancyTextCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19EA832921EE3E1100CC44CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FancyTextCreator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junnakajima.FancyTextCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19EA832B21EE3E1100CC44CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FancyTextCreatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junnakajima.FancyTextCreatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FancyTextCreator.app/FancyTextCreator";
+			};
+			name = Debug;
+		};
+		19EA832C21EE3E1100CC44CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FancyTextCreatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junnakajima.FancyTextCreatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FancyTextCreator.app/FancyTextCreator";
+			};
+			name = Release;
+		};
+		19EA832E21EE3E1100CC44CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FancyTextCreatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junnakajima.FancyTextCreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FancyTextCreator;
+			};
+			name = Debug;
+		};
+		19EA832F21EE3E1100CC44CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FancyTextCreatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junnakajima.FancyTextCreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FancyTextCreator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19EA82F621EE3E0E00CC44CE /* Build configuration list for PBXProject "FancyTextCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19EA832521EE3E1100CC44CE /* Debug */,
+				19EA832621EE3E1100CC44CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19EA832721EE3E1100CC44CE /* Build configuration list for PBXNativeTarget "FancyTextCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19EA832821EE3E1100CC44CE /* Debug */,
+				19EA832921EE3E1100CC44CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19EA832A21EE3E1100CC44CE /* Build configuration list for PBXNativeTarget "FancyTextCreatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19EA832B21EE3E1100CC44CE /* Debug */,
+				19EA832C21EE3E1100CC44CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19EA832D21EE3E1100CC44CE /* Build configuration list for PBXNativeTarget "FancyTextCreatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19EA832E21EE3E1100CC44CE /* Debug */,
+				19EA832F21EE3E1100CC44CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19EA82F321EE3E0E00CC44CE /* Project object */;
+}
