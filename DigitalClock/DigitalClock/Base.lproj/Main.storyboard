@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="digital-7.ttf">
+            <string>Digital-7</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3X5-Dq-krt">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cak-J1-CAt">
+                                <rect key="frame" x="20" y="44" width="374" height="818"/>
+                                <fontDescription key="fontDescription" name="Digital-7" family="Digital-7" pointSize="100"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LhT-Cu-xGm">
+                                <rect key="frame" x="16" y="837" width="382" height="25"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="24"/>
+                                <state key="normal" title="Show Setting">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="settings:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UYY-vC-n2o"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cdh-vk-7Sg">
+                                <rect key="frame" x="16" y="603" width="382" height="226"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8sn-Bh-JXD">
+                                        <rect key="frame" x="8" y="8" width="364" height="208"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clock Color" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBE-Le-nsi">
+                                                <rect key="frame" x="0.0" y="0.0" width="364" height="28"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="5sE-yo-fVo">
+                                                <rect key="frame" x="0.0" y="36" width="364" height="29"/>
+                                                <segments>
+                                                    <segment title="White"/>
+                                                    <segment title="Black"/>
+                                                    <segment title="Green"/>
+                                                    <segment title="Red"/>
+                                                </segments>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <action selector="clockColor:" destination="BYZ-38-t0r" eventType="valueChanged" id="QBI-rY-WD0"/>
+                                                </connections>
+                                            </segmentedControl>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Background Color" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdq-Ht-Mm4">
+                                                <rect key="frame" x="0.0" y="72" width="364" height="28"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xsJ-lk-rqv">
+                                                <rect key="frame" x="0.0" y="108" width="364" height="29"/>
+                                                <segments>
+                                                    <segment title="Black"/>
+                                                    <segment title="White"/>
+                                                    <segment title="Yellow"/>
+                                                    <segment title="Blue"/>
+                                                </segments>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <action selector="backgroundColor:" destination="BYZ-38-t0r" eventType="valueChanged" id="YwJ-zz-ap1"/>
+                                                </connections>
+                                            </segmentedControl>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Background Image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOu-gi-7s7">
+                                                <rect key="frame" x="0.0" y="144" width="364" height="28"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="PZY-EC-fJC">
+                                                <rect key="frame" x="0.0" y="180" width="364" height="29"/>
+                                                <segments>
+                                                    <segment title="Image 1"/>
+                                                    <segment title="Image 2"/>
+                                                    <segment title="Image 3"/>
+                                                    <segment title="Image 4"/>
+                                                </segments>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <action selector="backgroundImageSelect:" destination="BYZ-38-t0r" eventType="valueChanged" id="2um-8g-fPW"/>
+                                                </connections>
+                                            </segmentedControl>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="8sn-Bh-JXD" firstAttribute="top" secondItem="cdh-vk-7Sg" secondAttribute="top" constant="8" id="7vY-Kq-owB"/>
+                                    <constraint firstAttribute="bottom" secondItem="8sn-Bh-JXD" secondAttribute="bottom" constant="10" id="EnK-bb-0wk"/>
+                                    <constraint firstItem="8sn-Bh-JXD" firstAttribute="leading" secondItem="cdh-vk-7Sg" secondAttribute="leading" constant="8" id="W1Y-A9-bjK"/>
+                                    <constraint firstAttribute="trailing" secondItem="8sn-Bh-JXD" secondAttribute="trailing" constant="10" id="bE1-1R-iD0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="LhT-Cu-xGm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="3Wg-lW-t3P"/>
+                            <constraint firstItem="3X5-Dq-krt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9Zk-wW-vfx"/>
+                            <constraint firstItem="cdh-vk-7Sg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="EtS-Yp-EcK"/>
+                            <constraint firstAttribute="bottom" secondItem="LhT-Cu-xGm" secondAttribute="bottom" constant="14" id="Fxb-xl-Nel"/>
+                            <constraint firstItem="LhT-Cu-xGm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="IKo-kt-4sZ"/>
+                            <constraint firstItem="3X5-Dq-krt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="LCL-KA-y98"/>
+                            <constraint firstItem="cak-J1-CAt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="P2v-hD-Lss"/>
+                            <constraint firstAttribute="bottom" secondItem="3X5-Dq-krt" secondAttribute="bottom" id="SpA-s9-38N"/>
+                            <constraint firstItem="3X5-Dq-krt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="W9d-EB-Up9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cak-J1-CAt" secondAttribute="trailing" constant="20" id="WAN-Gv-q8J"/>
+                            <constraint firstAttribute="bottom" secondItem="LhT-Cu-xGm" secondAttribute="bottom" id="Yga-EL-sWL"/>
+                            <constraint firstItem="LhT-Cu-xGm" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="20" id="ZGe-H9-Omk"/>
+                            <constraint firstItem="LhT-Cu-xGm" firstAttribute="top" secondItem="cdh-vk-7Sg" secondAttribute="bottom" constant="8" id="cDF-9w-gG6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cdh-vk-7Sg" secondAttribute="trailing" constant="16" id="cf5-SF-e9U"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LhT-Cu-xGm" secondAttribute="trailing" constant="16" id="csI-MA-qyb"/>
+                            <constraint firstItem="LhT-Cu-xGm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="fhO-Cf-1jy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LhT-Cu-xGm" secondAttribute="trailing" constant="16" id="gPN-wE-WSs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LhT-Cu-xGm" secondAttribute="trailing" constant="16" id="hh9-Kb-Gsn"/>
+                            <constraint firstItem="cak-J1-CAt" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="jCo-fu-wfn"/>
+                            <constraint firstAttribute="bottom" secondItem="LhT-Cu-xGm" secondAttribute="bottom" constant="20" id="lYm-Ss-POi"/>
+                            <constraint firstItem="cak-J1-CAt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lth-49-lHn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundColorSeg" destination="xsJ-lk-rqv" id="fB2-DZ-CrC"/>
+                        <outlet property="backgroundImage" destination="3X5-Dq-krt" id="YFi-I6-N5P"/>
+                        <outlet property="backgroundImageSeg" destination="PZY-EC-fJC" id="zaN-Ag-z4N"/>
+                        <outlet property="clockColorSeg" destination="5sE-yo-fVo" id="GwD-VR-q7O"/>
+                        <outlet property="label" destination="cak-J1-CAt" id="IEW-Vg-0iG"/>
+                        <outlet property="settingButton" destination="LhT-Cu-xGm" id="jiV-cu-TZ9"/>
+                        <outlet property="settingView" destination="cdh-vk-7Sg" id="nee-4p-KPf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+        </scene>
+    </scenes>
+</document>
