@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Tlr-1O-APX">
+                                <rect key="frame" x="0.0" y="646" width="414" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="572090896.67475498">
+                                    <!--2019-02-17 10:08:16 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="selectDate:" destination="BYZ-38-t0r" eventType="valueChanged" id="u0g-Et-pf2"/>
+                                </connections>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gal-82-WAk">
+                                <rect key="frame" x="20" y="44" width="374" height="119"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="119" id="7R1-5h-Wa6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Tlr-1O-APX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2ZW-8N-e7i"/>
+                            <constraint firstItem="gal-82-WAk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="MkI-ni-QJU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gal-82-WAk" secondAttribute="trailing" constant="20" id="bXZ-RL-QeN"/>
+                            <constraint firstItem="Tlr-1O-APX" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="cQU-Ut-fpp"/>
+                            <constraint firstItem="Tlr-1O-APX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sne-WJ-2Xd"/>
+                            <constraint firstItem="gal-82-WAk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="x2W-ne-Xzx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="Tlr-1O-APX" id="vxD-U1-cNT"/>
+                        <outlet property="label" destination="gal-82-WAk" id="T6v-s3-Rc1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+        </scene>
+    </scenes>
+</document>
