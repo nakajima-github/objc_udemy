@@ -34,6 +34,14 @@
                                     <segue destination="s0l-4F-iXt" kind="presentation" modalTransitionStyle="partialCurl" id="vbe-cs-cJp"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPC-6n-slM">
+                                <rect key="frame" x="20" y="360" width="374" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Switch to XIB"/>
+                                <connections>
+                                    <action selector="switchXIB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xz5-mK-LLj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

@@ -17,6 +17,8 @@
 		19F1CC0D2219262C00C76F7C /* SwitchingStoryboardsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F1CC0C2219262C00C76F7C /* SwitchingStoryboardsUITests.m */; };
 		19F1CC1C22192F7400C76F7C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F1CC1B22192F7400C76F7C /* SecondViewController.m */; };
 		19F1CC1F22192FAD00C76F7C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F1CC1E22192FAD00C76F7C /* ThirdViewController.m */; };
+		19F1CC2322193FF200C76F7C /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F1CC2122193FF200C76F7C /* FourthViewController.m */; };
+		19F1CC2422193FF200C76F7C /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19F1CC2222193FF200C76F7C /* FourthViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,9 @@
 		19F1CC1B22192F7400C76F7C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		19F1CC1D22192FAD00C76F7C /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		19F1CC1E22192FAD00C76F7C /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		19F1CC2022193FF200C76F7C /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		19F1CC2122193FF200C76F7C /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		19F1CC2222193FF200C76F7C /* FourthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,9 @@
 				19F1CC1B22192F7400C76F7C /* SecondViewController.m */,
 				19F1CC1D22192FAD00C76F7C /* ThirdViewController.h */,
 				19F1CC1E22192FAD00C76F7C /* ThirdViewController.m */,
+				19F1CC2022193FF200C76F7C /* FourthViewController.h */,
+				19F1CC2122193FF200C76F7C /* FourthViewController.m */,
+				19F1CC2222193FF200C76F7C /* FourthViewController.xib */,
 				19F1CBEE2219262A00C76F7C /* Main.storyboard */,
 				19F1CBF12219262C00C76F7C /* Assets.xcassets */,
 				19F1CBF32219262C00C76F7C /* LaunchScreen.storyboard */,
@@ -245,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F1CC2422193FF200C76F7C /* FourthViewController.xib in Resources */,
 				19F1CBF52219262C00C76F7C /* LaunchScreen.storyboard in Resources */,
 				19F1CBF22219262C00C76F7C /* Assets.xcassets in Resources */,
 				19F1CBF02219262A00C76F7C /* Main.storyboard in Resources */,
@@ -272,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F1CC2322193FF200C76F7C /* FourthViewController.m in Sources */,
 				19F1CC1C22192F7400C76F7C /* SecondViewController.m in Sources */,
 				19F1CC1F22192FAD00C76F7C /* ThirdViewController.m in Sources */,
 				19F1CBED2219262A00C76F7C /* ViewController.m in Sources */,

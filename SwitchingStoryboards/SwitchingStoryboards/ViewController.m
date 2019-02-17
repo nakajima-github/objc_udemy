@@ -20,4 +20,11 @@
 }
 
 
+- (IBAction)switchXIB:(id)sender {
+    
+    FourthViewController *fourth = [[FourthViewController alloc] initWithNibName:nil bundle:nil];
+    fourth.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    [self presentViewController:fourth animated:YES completion:nil];
+    
+}
 @end

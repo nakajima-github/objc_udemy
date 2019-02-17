@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FourthViewController.h
 //  SwitchingStoryboards
 //
 //  Created by 中嶋淳 on 2019/02/17.
@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FourthViewController.h"
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
-- (IBAction)switchXIB:(id)sender;
+@interface FourthViewController : UIViewController
+- (IBAction)goHome:(id)sender;
 
 @end
 
+NS_ASSUME_NONNULL_END
