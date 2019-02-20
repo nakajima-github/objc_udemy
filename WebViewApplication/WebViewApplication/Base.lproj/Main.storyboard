@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" barStyle="black" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZe-7E-Dkm">
+                                <rect key="frame" x="0.0" y="44" width="414" height="56"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
+                            </searchBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qkR-74-wDf">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <items>
+                                    <barButtonItem systemItem="stop" id="zou-Lv-DB6">
+                                        <connections>
+                                            <action selector="stop:" destination="BYZ-38-t0r" id="loN-xq-aiE"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="refresh" id="RwR-hg-ksn">
+                                        <connections>
+                                            <action selector="refresh:" destination="BYZ-38-t0r" id="9Y6-xv-eaX"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="uGs-Ji-Phc"/>
+                                    <barButtonItem systemItem="rewind" id="9OT-mK-l0h">
+                                        <connections>
+                                            <action selector="back:" destination="BYZ-38-t0r" id="2Bm-8L-3kB"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="fastForward" id="xmA-rW-vNo">
+                                        <connections>
+                                            <action selector="forward:" destination="BYZ-38-t0r" id="olw-cE-uEm"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.22464391589999999" green="0.28137540820000001" blue="0.34601831440000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </toolbar>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yXu-vG-nFt">
+                                <rect key="frame" x="0.0" y="100" width="414" height="713"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="9bv-My-IHi">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                                <color key="color" red="0.22464391589999999" green="0.28137540820000001" blue="0.34601831440000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.22464391589164734" green="0.28137540817260742" blue="0.34601831436157227" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qkR-74-wDf" firstAttribute="top" secondItem="yXu-vG-nFt" secondAttribute="bottom" id="7b6-03-lo0"/>
+                            <constraint firstItem="iZe-7E-Dkm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="FhB-Ea-tkD"/>
+                            <constraint firstItem="9bv-My-IHi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GK2-f9-9is"/>
+                            <constraint firstItem="9bv-My-IHi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mpp-hZ-oDR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qkR-74-wDf" secondAttribute="trailing" id="Y9C-CF-TQJ"/>
+                            <constraint firstItem="yXu-vG-nFt" firstAttribute="top" secondItem="iZe-7E-Dkm" secondAttribute="bottom" id="d3R-Ui-Apr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iZe-7E-Dkm" secondAttribute="trailing" id="fdw-kt-55j"/>
+                            <constraint firstItem="yXu-vG-nFt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ft5-zM-RM1"/>
+                            <constraint firstItem="iZe-7E-Dkm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hZp-dU-Dc8"/>
+                            <constraint firstItem="qkR-74-wDf" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="pJe-JI-zgp"/>
+                            <constraint firstItem="qkR-74-wDf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rGA-iy-Zfn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yXu-vG-nFt" secondAttribute="trailing" id="zpe-9V-zj3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="actInd" destination="9bv-My-IHi" id="sqn-Hj-bMg"/>
+                        <outlet property="searchBar" destination="iZe-7E-Dkm" id="yfJ-BB-mH9"/>
+                        <outlet property="webView" destination="yXu-vG-nFt" id="Jtx-zL-jPo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+        </scene>
+    </scenes>
+</document>
