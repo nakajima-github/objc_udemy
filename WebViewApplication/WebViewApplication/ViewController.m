@@ -18,8 +18,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com/"]]];
+    [self.webView addSubview:self.actInd];
+    [self.actInd startAnimating];
+    
+    self.webView.navigationDelegate = self;
 }
 
+- (void)webView:(WKWebView *)webView didCommitNavigation:(WKNavigation *)navigation {
+    [self.actInd startAnimating];
+}
+
+- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation {
+    [self.actInd stopAnimating];
+}
 
 - (IBAction)stop:(id)sender {
     [self.webView stopLoading];
@@ -40,4 +51,10 @@
         [self.webView goForward];
     }
 }
+
+- (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://%@", self.searchBar.text]]]];
+    [searchBar resignFirstResponder];
+}
+
 @end
