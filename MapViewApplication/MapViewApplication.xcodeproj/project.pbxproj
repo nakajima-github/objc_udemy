@@ -16,6 +16,7 @@
 		19FFD0F322226A5400BA0730 /* MapViewApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FFD0F222226A5400BA0730 /* MapViewApplicationTests.m */; };
 		19FFD0FE22226A5400BA0730 /* MapViewApplicationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FFD0FD22226A5400BA0730 /* MapViewApplicationUITests.m */; };
 		19FFD10D22226EB900BA0730 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FFD10C22226EB900BA0730 /* MapKit.framework */; };
+		19FFD1102222745F00BA0730 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FFD10F2222745F00BA0730 /* MapPin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		19FFD0FD22226A5400BA0730 /* MapViewApplicationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewApplicationUITests.m; sourceTree = "<group>"; };
 		19FFD0FF22226A5400BA0730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19FFD10C22226EB900BA0730 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		19FFD10E2222745F00BA0730 /* MapPin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		19FFD10F2222745F00BA0730 /* MapPin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				19FFD0DA22226A5100BA0730 /* AppDelegate.m */,
 				19FFD0DC22226A5100BA0730 /* ViewController.h */,
 				19FFD0DD22226A5100BA0730 /* ViewController.m */,
+				19FFD10E2222745F00BA0730 /* MapPin.h */,
+				19FFD10F2222745F00BA0730 /* MapPin.m */,
 				19FFD0DF22226A5100BA0730 /* Main.storyboard */,
 				19FFD0E222226A5400BA0730 /* Assets.xcassets */,
 				19FFD0E422226A5400BA0730 /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19FFD1102222745F00BA0730 /* MapPin.m in Sources */,
 				19FFD0DE22226A5100BA0730 /* ViewController.m in Sources */,
 				19FFD0E922226A5400BA0730 /* main.m in Sources */,
 				19FFD0DB22226A5100BA0730 /* AppDelegate.m in Sources */,

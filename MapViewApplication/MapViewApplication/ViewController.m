@@ -17,6 +17,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    MKCoordinateRegion region;
+    MKCoordinateSpan span;
+    
+    span.latitudeDelta = 0.005;
+    span.longitudeDelta = 0.005;
+    
+    CLLocationCoordinate2D location;
+    location.latitude = 7.341180717463416;
+    location.longitude = 134.50290101953124;
+    
+    region.span = span;
+    region.center = location;
+    
+    [self.mapView setRegion: region animated:YES];
+    
+    MapPin *ann = [[MapPin alloc]init];
+    ann.coordinate = location;
+    [self.mapView addAnnotation:ann];
 }
 
 
