@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="a7W-HO-vxm">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ail-E4-8is">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <items>
+                                    <barButtonItem title="Standard" id="29o-4K-qEN">
+                                        <connections>
+                                            <action selector="standard:" destination="BYZ-38-t0r" id="pjw-iB-19l"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Satelite" id="AVQ-s1-hV7">
+                                        <connections>
+                                            <action selector="satelite:" destination="BYZ-38-t0r" id="lDs-Qp-1Nl"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Hybrid" id="2f5-pP-zRN">
+                                        <connections>
+                                            <action selector="hybrid:" destination="BYZ-38-t0r" id="DoQ-Su-TYg"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="r6T-O9-Wbh"/>
+                                    <barButtonItem title="Locate" id="cvH-42-a20">
+                                        <connections>
+                                            <action selector="locate:" destination="BYZ-38-t0r" id="kvw-6h-FSr"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </toolbar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="VgV-w8-rnp">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ail-E4-8is" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5dR-8n-zQs"/>
+                            <constraint firstItem="ail-E4-8is" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IA9-xe-3mp"/>
+                            <constraint firstItem="ail-E4-8is" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Jax-cJ-aZG"/>
+                            <constraint firstItem="VgV-w8-rnp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="JeK-Az-qNE"/>
+                            <constraint firstItem="VgV-w8-rnp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Y9d-6x-UIB"/>
+                            <constraint firstItem="ail-E4-8is" firstAttribute="top" secondItem="VgV-w8-rnp" secondAttribute="bottom" id="fMK-Az-Laa"/>
+                            <constraint firstItem="VgV-w8-rnp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="x0e-sM-Wbh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Map View" id="DZ8-yn-5Gu">
+                        <barButtonItem key="rightBarButtonItem" title="Directions" id="EY1-JO-eCU">
+                            <connections>
+                                <action selector="directions:" destination="BYZ-38-t0r" id="Y1D-dv-K0R"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="VgV-w8-rnp" id="AnP-xi-ikz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="976.81159420289862" y="-750"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DDy-73-0Zf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a7W-HO-vxm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SUl-sr-gWf">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
+                            <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="26"/>
+                            <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="B8T-SB-obX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f9C-Yd-KGY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="107" y="-750"/>
+        </scene>
+    </scenes>
+</document>
