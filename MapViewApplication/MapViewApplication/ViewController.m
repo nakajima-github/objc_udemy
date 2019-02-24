@@ -83,5 +83,6 @@
 }
 
 - (IBAction)directions:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://maps.apple.com?daddr=7.341180717463416,134.50290101953124"] options:@{} completionHandler:nil];
 }
 @end
