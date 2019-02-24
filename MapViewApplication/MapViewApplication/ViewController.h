@@ -10,7 +10,9 @@
 #import <MapKit/MapKit.h>
 #import "MapPin.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <MKMapViewDelegate, CLLocationManagerDelegate> {
+    CLLocationManager *locationManager;
+}
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 - (IBAction)standard:(id)sender;

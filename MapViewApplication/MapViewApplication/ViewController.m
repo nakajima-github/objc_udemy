@@ -35,6 +35,11 @@
     MapPin *ann = [[MapPin alloc]init];
     ann.coordinate = location;
     [self.mapView addAnnotation:ann];
+    
+    locationManager.delegate = self;
+    self.mapView.delegate = self;
+    locationManager = [[CLLocationManager alloc] init];
+    
 }
 
 
@@ -51,7 +56,30 @@
 }
 
 - (IBAction)locate:(id)sender {
+    [locationManager requestWhenInUseAuthorization];
+    [locationManager requestAlwaysAuthorization];
     
+    [locationManager startUpdatingLocation];
+    
+    self.mapView.showsUserLocation = YES;
+    
+}
+
+- (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation {
+    MKCoordinateRegion region;
+    MKCoordinateSpan span;
+    
+    span.latitudeDelta = 0.005;
+    span.longitudeDelta = 0.005;
+    
+    CLLocationCoordinate2D location;
+    location.latitude = userLocation.coordinate.latitude;
+    location.longitude = userLocation.coordinate.longitude;
+    
+    region.span = span;
+    region.center = location;
+    
+    [self.mapView setRegion: region animated:YES];
 }
 
 - (IBAction)directions:(id)sender {
